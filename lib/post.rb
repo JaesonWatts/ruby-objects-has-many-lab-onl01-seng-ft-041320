@@ -6,6 +6,7 @@ class Post
 
   @@all = []
 
+<<<<<<< HEAD
   def initialize(title, author=nil)
     @title = title
     @author = author
@@ -24,4 +25,12 @@ class Post
       @@all
     end
 
+=======
+  def initialize(title)
+    @title = title
+    @@all << self.new
+
+  end
+
+>>>>>>> beabadc21d2faaa1489bf64f7d7551f1d84b6965
 end

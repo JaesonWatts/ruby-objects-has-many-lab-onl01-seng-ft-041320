@@ -2,6 +2,7 @@ require 'pry'
 
 class Author
 
+<<<<<<< HEAD
   attr_accessor :name, :author
 
   @post_count = 0
@@ -28,5 +29,16 @@ class Author
   def self.post_count
       Post.all.length
     end
+=======
+  attr_accessor :name
+
+  def initialize(name)
+
+     @name = name
+
+  end
+
+
+>>>>>>> beabadc21d2faaa1489bf64f7d7551f1d84b6965
 
 end
